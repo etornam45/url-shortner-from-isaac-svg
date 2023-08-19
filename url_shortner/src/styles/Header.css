@@ -14,6 +14,8 @@ header{
     color: black;
     border-bottom: 1px solid black;
 
+    position: relative;
+    z-index: 2;
 }
 
 
@@ -26,7 +28,6 @@ nav ul{
 }
 
 a{
-    /* cursor: auto; */
     position: relative;
 }
 
@@ -43,3 +44,5 @@ a::before{
 li:hover > a::before{
     width: 100%;
 }
+
+

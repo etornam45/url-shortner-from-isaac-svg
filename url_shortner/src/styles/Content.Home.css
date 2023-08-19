@@ -21,7 +21,7 @@
 
 .content h2{
     margin-bottom: 2rem;
-    font-size: 2.5rem;
+    font-size: calc(50*.04rem);
     font-weight: bolder;
 }
 
